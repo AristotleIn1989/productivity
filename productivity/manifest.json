@@ -6,9 +6,18 @@
   "description": "Automatically groups tabs based on their URLs",
   "permissions": [
     "tabs",
-    "tabGroups"
+    "tabGroups",
+    "windows"
+  ],
+  "optional_permissions": [
+    "storage"
   ],
   "background": {
     "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
 }
