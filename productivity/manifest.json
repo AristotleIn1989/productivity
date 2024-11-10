@@ -1,0 +1,14 @@
+// manifest.json
+{
+  "manifest_version": 3,
+  "name": "Smart Tab Grouper",
+  "version": "1.0",
+  "description": "Automatically groups tabs based on their URLs",
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
