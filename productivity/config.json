@@ -1,0 +1,32 @@
+// config.json
+{
+  "rules": [
+    {
+      "group": "Work",
+      "color": "blue",
+      "urls": [
+        "*://docs.google.com/*",
+        "*://mail.google.com/*",
+        "*://*.slack.com/*"
+      ]
+    },
+    {
+      "group": "Learn",
+      "color": "green",
+      "urls": [
+        "*://*.coursera.org/*",
+        "*://*.edx.org/*",
+        "*://*.khanacademy.org/*"
+      ]
+    },
+    {
+      "group": "Social",
+      "color": "pink",
+      "urls": [
+        "*://www.facebook.com/*",
+        "*://www.twitter.com/*",
+        "*://www.instagram.com/*"
+      ]
+    }
+  ]
+}
