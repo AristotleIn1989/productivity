@@ -4,6 +4,7 @@
     {
       "group": "Work",
       "color": "blue",
+      "collapsed": true,
       "urls": [
         "*://docs.google.com/*",
         "*://mail.google.com/*",
@@ -13,6 +14,7 @@
     {
       "group": "Learn",
       "color": "green",
+      "collapsed": false,
       "urls": [
         "*://*.coursera.org/*",
         "*://*.edx.org/*",
@@ -22,11 +24,16 @@
     {
       "group": "Social",
       "color": "pink",
+      "collapsed": true,
       "urls": [
         "*://www.facebook.com/*",
         "*://www.twitter.com/*",
         "*://www.instagram.com/*"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "autoCleanEmptyGroups": true,
+    "caseSensitive": false
+  }
 }
